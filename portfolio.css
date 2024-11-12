@@ -1,0 +1,477 @@
+.navbar {
+    background-color: #a219d0;
+    padding: 6px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.9rem;
+    margin-right:400px ;
+    margin-top: 10px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #000000; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.body {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.nav-bar a {
+    color: azure;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.nav-bar a:hover {
+    color: rgb(0, 0, 0)
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+  
+  .container .my-pic {
+    width: 320px;
+    height: 320px;
+    border-radius: 200px;
+    overflow: hidden;
+    box-shadow: 5px 7px 25px rgba(168, 43, 160, 0.5);
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .my-pic img {
+    height: 300px;
+    width: 300px;
+    transition: 0.5s;
+    margin-top: 11px;
+  }
+  
+  .my-pic img:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .my-text {
+    padding: 50px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center; 
+    margin: 30px auto;
+    margin-top: 130px; 
+    font-size: 20px;
+  }
+  
+  .Dev {
+    color: rgba(130, 12, 240, 0.848);
+  }
+  
+  .name {
+    color: rgb(50, 199, 150);
+  }
+  
+  .btn-group .btn {
+    color: inherit;
+    background-color: rgb(118, 36, 153);
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 10px 5px;
+  }
+  
+  .btn:hover {
+    opacity: 0.5;
+  }
+  
+  .social {
+    font-size: 25px;
+    color: rgb(101, 189, 189);
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .container .my-pic {
+      width: 200px; 
+      height: 200px;
+    }
+  
+    .my-pic img {
+      width: 150px;
+      height: 150px;
+      margin-top: 22px;
+    }
+  
+    .my-text {
+      padding: 20px;
+      max-width: 96%;
+      margin: 10px auto;
+    }
+  
+    .my-text h3 {
+      font-size: 1.2em;
+    }
+  
+    .my-text h1 {
+      font-size: 1.5em;
+    }
+  
+    .my-text p {
+      font-size: 1em;
+    }
+  
+    .btn-group .btn {
+      padding: 8px 16px;
+      margin-top: 20px; 
+    }
+  
+    .social {
+      font-size: 18px;
+      padding: 10px;
+      
+    }
+  }
+  
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #000000;
+    padding: 100px;
+    padding-top: 100px ;
+ }
+  
+  .about h2 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .about h2 span {
+    color: #02f8f8;
+  }
+  
+  .about-text p {
+    font-size: 1.6em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  @media (max-width: 1024px) {
+    .about {
+      padding: 30px;
+    }
+    
+    .about h2 {
+      font-size: 2.2em;
+    }
+    
+    .about-text p {
+      font-size: 1.1em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about h2 {
+      font-size: 2em;
+    }
+    
+    .about-text p {
+      font-size: 1em;
+      padding: 0 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about h2 {
+      font-size: 1.8em;
+    }
+    
+    .about-text p {
+      font-size: 0.95em;
+      padding: 0 15px;
+    }
+  }
+
+.container2 {
+    max-width: 800px;
+    margin-left: 95px;
+    padding: 50px;
+}
+.sub-title {
+    color: #ffffff;
+    margin-bottom: 10px;
+    
+}
+h1 {
+    color: #ffffff;
+    margin: 20px 0;
+}
+.Technical-bars {
+    margin-top: 30px;
+}
+.bar {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.bar i {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+.info {
+    font-size: 1em;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.progress-line {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.progress-line span {
+    display: block;
+    height: 100%;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 1.5s ease-in-out;
+}
+.progress-line.html span {
+    background-color: #c95d2e;
+    transform: scaleX(0.80);
+}
+.progress-line.css span {
+    background-color: #147bbc;
+    transform: scaleX(0.50);
+}
+.progress-line.javascript span {
+    background-color: #dde024;
+    transform: scaleX(0.40);
+}
+
+#projects {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 44px;
+    padding-bottom: 70px;
+}
+
+.sub-title span {
+    color: #0ef;
+}
+
+.container3 {
+    padding: 70px;
+}
+
+.container3 {
+    color: aliceblue;
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.projects-list div {
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #bd99d0f7,
+        1px 1px 40px rgb(162, 35, 172)
+}
+.projects-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.projects-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.projects-list div a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.read {
+    display: inline-block;
+    padding: 10px 25px;
+    background: rgb(152, 55, 163);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #0c0b0b;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.read:hover {
+    background: rgb(206, 29, 237);
+    color: black;
+    box-shadow: 0 0 20px rgb(242, 0, 255);
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 10px;
+  margin-left: 60px;
+  color: #ffffff;
+  margin-top: -90px;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+  color: #efe7e7;
+}
+
+.contact h1 span {
+  color: aqua;
+}
+
+.contact-list {
+  list-style: none;
+  font-size: 1.1rem;
+}
+.contact-list li {
+  display: flex;
+  align-items: center;
+}
+.contact-list i {
+  margin-right: 8px;
+  color: #a838e3;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.contact-icons a i {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+.contact-icons a i:hover{
+    box-shadow: 0 0 20px rgb(242, 0, 255);
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 50px;
+  margin-right: 150px;
+  margin-bottom: 25px;
+  padding: 40px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input[type="name"],
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="subject"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: 1px solid #a823e1;
+  background-color: #bcc7cd;
+  border-radius: 10px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #611472;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #b515d2;
+}
+
+@media (min-width: 768px) {
+  .contact {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .contact-text,
+  .contact-form {
+    flex: 1;
+  }
+}
